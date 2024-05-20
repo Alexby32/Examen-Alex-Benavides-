@@ -1,0 +1,18 @@
+.error-page {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+    color: #333;
+  }
+  
+  .error-page h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+  }
+  
+  .error-page p {
+    font-size: 1.5rem;
+  }

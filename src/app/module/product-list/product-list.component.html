@@ -1,0 +1,9 @@
+<p>lista de productos </p>
+
+<div *ngFor="let product of products" class="">
+    <h1>{{product.name}}</h1>
+    <button (click)="addToCart(product)" pButton pRipple >
+        agregar
+    </button>
+</div>
+
